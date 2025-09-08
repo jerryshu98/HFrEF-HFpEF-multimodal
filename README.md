@@ -8,7 +8,7 @@ We also implement fairness-oriented methods such as **data augmentation** and **
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### 1. Clone the repo
 ```bash
@@ -22,15 +22,9 @@ conda create -n hfref python=3.9
 conda activate hfref
 pip install -r requirements.txt
 ```
-
-### 3. Run training
-```bash
-python train.py --config configs/densenet121.yaml
-```
-
 ---
 
-## 📊 Data availability
+## Data availability
 This work uses publicly available datasets:  
 - [MIMIC-CXR v2.0.0](https://physionet.org/content/mimic-cxr/2.0.0/)  
 - [MIMIC-IV v2.2](https://physionet.org/content/mimiciv/2.2/)  
